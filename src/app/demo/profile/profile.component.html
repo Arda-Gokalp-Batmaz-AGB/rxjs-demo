@@ -1,0 +1,4 @@
+<div class="p-8">
+    <h1 class="text-3xl text-center font-bold mb-10">@{{author?.name}} Posts</h1>
+    <app-post *ngFor="let post of posts" [post]="post"></app-post>
+</div>

@@ -1,0 +1,178 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "RxJS",
+      "text": "RxJS is great",
+      "authorId": 2
+    },
+    {
+      "id": 2,
+      "title": "Angular",
+      "text": "Angular is great",
+      "authorId": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "I agree!",
+      "username": "claudia",
+      "postId": 1
+    },
+    {
+      "id": 1,
+      "body": "Totally!",
+      "username": "jack",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "Of course!",
+      "username": "jack",
+      "postId": 2
+    },
+    {
+      "body": "yep",
+      "username": "test",
+      "postId": 1,
+      "id": 3
+    },
+    {
+      "body": "sure",
+      "username": "test",
+      "postId": 2,
+      "id": 4
+    },
+    {
+      "body": "za",
+      "username": "test",
+      "postId": 1,
+      "id": 5
+    },
+    {
+      "body": "z",
+      "username": "test",
+      "postId": 1,
+      "id": 6
+    },
+    {
+      "body": "t",
+      "username": "test",
+      "postId": 1,
+      "id": 7
+    },
+    {
+      "body": "a",
+      "username": "test",
+      "postId": 2,
+      "id": 8
+    },
+    {
+      "body": "g",
+      "username": "test",
+      "postId": 1,
+      "id": 9
+    },
+    {
+      "body": "b",
+      "username": "test",
+      "postId": 1,
+      "id": 10
+    },
+    {
+      "body": "u",
+      "username": "test",
+      "postId": 1,
+      "id": 11
+    },
+    {
+      "body": "f",
+      "username": "k",
+      "postId": 1,
+      "id": 12
+    },
+    {
+      "body": "f",
+      "username": "ehmed",
+      "postId": 1,
+      "id": 13
+    },
+    {
+      "body": "qwe",
+      "username": "ehmed",
+      "postId": 2,
+      "id": 14
+    },
+    {
+      "body": "ardazü",
+      "username": "arda",
+      "postId": 2,
+      "id": 15
+    },
+    {
+      "body": "h",
+      "username": "arda",
+      "postId": 1,
+      "id": 16
+    },
+    {
+      "body": "f",
+      "username": "arda",
+      "postId": 1,
+      "id": 17
+    },
+    {
+      "body": "av",
+      "username": "arda",
+      "postId": 1,
+      "id": 18
+    },
+    {
+      "body": "ffff",
+      "username": "arda",
+      "postId": 1,
+      "id": 19
+    },
+    {
+      "body": "qweqweqwe",
+      "username": "arda",
+      "postId": 1,
+      "id": 20
+    },
+    {
+      "body": "gggggggggggggggg",
+      "username": "arda",
+      "postId": 1,
+      "id": 21
+    },
+    {
+      "body": "aaaaaaaa",
+      "username": "arda",
+      "postId": 1,
+      "id": 22
+    },
+    {
+      "body": "q",
+      "username": "arda",
+      "postId": 2,
+      "id": 23
+    },
+    {
+      "body": "h",
+      "username": "arda",
+      "postId": 2,
+      "id": 24
+    }
+  ],
+  "authors": [
+    {
+      "name": "berk",
+      "id": 1
+    },
+    {
+      "name": "john",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<div class="flex flex-col shadow p-6 rounded-lg gap-8 mb-10 bg-gray-50">
+    <div>
+        <span>
+            <span [routerLink]="'/demo/profile/' + post.authorId" class="text-gray-500 font-bold cursor-pointer hover:underline">@{{authorName}}</span>
+            posted
+        </span>
+    </div>
+    <div>
+        <p class="text-xl font-bold">{{post.title}}</p>
+    </div>
+    <div>
+        <p class="ml-2">{{post.text}}</p>
+    </div>
+    <div class="flex flex-col gap-3">
+        <app-comment *ngFor="let comment of comments$ | async" [comment]="comment"></app-comment>
+    </div>
+    <form (submit)="addComment()">
+        <input name="commentText" [(ngModel)]="commentText" class="h-8 w-full px-4 outline-none rounded-b-lg" placeholder="Add a comment..." type="text">
+    </form>
+</div>
